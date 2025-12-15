@@ -1,0 +1,83 @@
+/* Estilos para index.html */
+body {
+    background-image: url('https://images.unsplash.com/photo-1504148455328-c376907d081c?w=1920');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #D2691E;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: #00008B;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #008B8B;
+}
+
+p, li {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para enlaces */
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 33%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: AntiqueWhite;
+}
+
+table, th, td {
+    border: 1px solid brown;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para formulario.html */
+body {
+    background-color: AntiqueWhite;
+}
+
+form h1 {
+    font-size: 25px;
+    color: brown;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
